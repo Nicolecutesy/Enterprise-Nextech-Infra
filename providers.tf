@@ -1,8 +1,3 @@
-# providers.tf
-provider "azurerm" {
-  features {}
-}
-
 terraform {
   required_providers {
     azurerm = {
@@ -11,4 +6,9 @@ terraform {
     }
   }
 }
+
+provider "azurerm" {
+  features {}
+}
+
 
